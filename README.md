@@ -1,2 +1,2 @@
 # fullstack_app
-fulllstack app pracrice
+fulllstack app practice
