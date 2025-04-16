@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "api.inventory",
+    "batch",
 ]
 
 MIDDLEWARE = [
@@ -158,3 +159,5 @@ SIMPLE_JWT = {
 
 # クッキーの有効期限に使用する
 COOKIE_TIME = 60 * 60 * 12
+
+#APPEND_SLASH=False
