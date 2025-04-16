@@ -41,7 +41,7 @@ export default function Page() {
 
     const handleLogin = (data: FormData) => {
         axios
-          .post("/api/inventory/login/", data)
+          .post('/api/inventory/login/', data)
           .then((response) => {
             console.log(response)
             router.push("/inventory/products");
